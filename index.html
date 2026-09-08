@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio - Romy Andrean</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.6;
+    }
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 30px;
+      background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    }
+    .hero h1 { font-size: 48px; margin-bottom: 10px; }
+    .hero h1 span { color: #60a5fa; }
+    .hero p { font-size: 20px; color: #cbd5e1; margin-bottom: 25px; }
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 70px 25px;
+    }
+    h2 {
+      text-align: center;
+      color: #60a5fa;
+      margin-bottom: 30px;
+      font-size: 32px;
+    }
+    .card {
+      background: #1e293b;
+      padding: 25px;
+      border-radius: 14px;
+      margin-bottom: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,.2);
+    }
+    .info {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+    .info .card h3 { color: #93c5fd; margin-bottom: 8px; }
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #020617;
+      color: #94a3b8;
+    }
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 36px; }
+      .hero p { font-size: 17px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="hero">
+    <h1>Halo, saya <span>Romy Andrean</span></h1>
+    <p>Siswa XI TKJ-2 • SMK Negeri 1 • Calon Pilot</p>
+    <a class="btn" href="#tentang">Lihat Portofolio</a>
+  </div>
+</header>
+
+<section id="tentang">
+  <h2>Tentang Saya</h2>
+  <div class="card">
+    <p>
+      Halo, nama saya <strong>Romy Andrean</strong>. Saya adalah siswa kelas
+      <strong>XI TKJ-2</strong> di <strong>SMK Negeri 1</strong>. Saya memiliki
+      ketertarikan pada bidang Teknik Komputer dan Jaringan (TKJ) serta senang
+      bermain game online di waktu luang. Saya terus belajar dan mengembangkan
+      kemampuan agar dapat meraih cita-cita saya menjadi seorang pilot.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>Profil</h2>
+  <div class="info">
+    <div class="card">
+      <h3>Nama</h3>
+      <p>Romy Andrean</p>
+    </div>
+    <div class="card">
+      <h3>Kelas</h3>
+      <p>XI TKJ-2</p>
+    </div>
+    <div class="card">
+      <h3>Sekolah</h3>
+      <p>SMK Negeri 1</p>
+    </div>
+    <div class="card">
+      <h3>Keahlian</h3>
+      <p>Teknik Komputer dan Jaringan (TKJ)</p>
+    </div>
+    <div class="card">
+      <h3>Hobi</h3>
+      <p>Bermain game online</p>
+    </div>
+    <div class="card">
+      <h3>Cita-cita</h3>
+      <p>Menjadi pilot</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Keahlian</h2>
+  <div class="card">
+    <p>💻 Dasar Teknik Komputer dan Jaringan</p>
+    <p>🌐 Dasar jaringan komputer</p>
+    <p>🔧 Perakitan dan pemeliharaan komputer</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Romy Andrean • Portofolio Digital</p>
+</footer>
+
+</body>
+</html>
